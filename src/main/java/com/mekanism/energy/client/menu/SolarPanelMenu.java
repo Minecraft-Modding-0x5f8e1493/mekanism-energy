@@ -1,19 +1,7 @@
 package com.mekanism.energy.client.menu;
 
 import com.mekanism.energy.tiles.panels.AbstractSolarPanel;
-import mekanism.api.math.FloatingLong;
-import mekanism.client.render.armor.MekaSuitArmor;
 import mekanism.common.inventory.container.tile.MekanismTileContainer;
-import mekanism.common.item.ItemConfigurator;
-import mekanism.common.item.ItemEnergized;
-import mekanism.common.item.block.ItemBlockEnergyCube;
-import mekanism.common.item.gear.ItemAtomicDisassembler;
-import mekanism.common.item.gear.ItemMekaSuitArmor;
-import mekanism.common.lib.attribute.IAttributeRefresher;
-import mekanism.common.registration.impl.CreativeTabDeferredRegister;
-import mekanism.common.tags.MekanismTags;
-import mekanism.common.tile.interfaces.IUpgradeTile;
-import mekanism.common.util.MekanismUtils;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.Slot;
 
@@ -29,9 +17,7 @@ public class SolarPanelMenu<P extends AbstractSolarPanel> extends MekanismTileCo
     @Override
     protected void addSlots() {
         for (int i = 0; i <= 3; i++) {
-            addSlot(new AdvancedSlot(tile, i, X_SLOT_OFFSET + i * 18, Y_SLOT_OFFSET, stack -> {
-                return stack.getItem() instanceof CreativeTabDeferredRegister.ICustomCreativeTabContents;
-            }));
+            addSlot(new Slot(tile, i, X_SLOT_OFFSET + i * 18, Y_SLOT_OFFSET));
         }
     }
 

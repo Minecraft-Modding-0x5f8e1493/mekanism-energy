@@ -24,8 +24,6 @@ public class ModCreativeTab {
                 output.accept(BlockRegister.QUANTUM_GENERATOR.getBlock().asItem().getDefaultInstance());
 
                 output.accept(BlockRegister.PANEL_UNIFIER.getBlock().asItem().getDefaultInstance());
-                output.accept(BlockRegister.FORTUNE_TRANSFORMER.getBlock().asItem().getDefaultInstance());
-                output.accept(BlockRegister.MOLECULAR_MACHINE.getBlock().asItem().getDefaultInstance());
 
                 output.accept(ItemRegister.ORE_MODULEX1.asItem().getDefaultInstance());
                 output.accept(ItemRegister.ORE_MODULEX2.asItem().getDefaultInstance());

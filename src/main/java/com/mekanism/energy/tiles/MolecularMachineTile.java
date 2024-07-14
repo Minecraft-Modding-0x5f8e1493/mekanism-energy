@@ -12,6 +12,7 @@ import net.minecraft.world.Container;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
@@ -44,12 +45,12 @@ public class MolecularMachineTile extends MekaTileEntityGenerator implements Con
 
     @Override
     public int getContainerSize() {
-        return 4 * 9;
+        return 4*9;
     }
 
     @Override
     public boolean isEmpty() {
-        return items.stream().anyMatch((r) -> r == ItemStack.EMPTY);
+        return items.stream().allMatch((r) -> r.getItem().equals(Items.AIR));
     }
 
     @Override
@@ -63,7 +64,7 @@ public class MolecularMachineTile extends MekaTileEntityGenerator implements Con
     }
 
     @Override
-    public @NotNull ItemStack removeItemNoUpdate(int i) {
+    public ItemStack removeItemNoUpdate(int i) {
         ItemStack is = items.get(i);
 
         items.set(i, ItemStack.EMPTY);
@@ -72,7 +73,7 @@ public class MolecularMachineTile extends MekaTileEntityGenerator implements Con
     }
 
     @Override
-    public void setItem(int i, @NotNull ItemStack itemStack) {
+    public void setItem(int i, ItemStack itemStack) {
         items.set(i, itemStack);
     }
 
