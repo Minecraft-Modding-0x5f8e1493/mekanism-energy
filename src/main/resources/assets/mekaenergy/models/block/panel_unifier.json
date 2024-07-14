@@ -1,0 +1,12 @@
+{
+	"parent": "mekanism:block/machine",
+	"textures": {
+		"sides": "mekaenergy:block/usp/usp_side",
+		"front": "mekaenergy:block/usp/usp_side",
+		"west": "mekaenergy:block/usp/usp_side",
+		"east": "mekaenergy:block/usp/usp_side",
+		"south": "mekaenergy:block/usp/usp_side",
+		"up": "mekaenergy:block/usp/usp_top",
+		"down": "mekaenergy:block/usp/usp_bottom"
+	}
+}

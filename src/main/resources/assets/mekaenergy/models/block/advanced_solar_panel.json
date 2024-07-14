@@ -1,0 +1,12 @@
+{
+	"parent": "mekanism:block/machine",
+	"textures": {
+		"sides": "mekaenergy:block/asp/asp_side",
+		"front": "mekaenergy:block/asp/asp_side",
+		"west": "mekaenergy:block/asp/asp_side",
+		"east": "mekaenergy:block/asp/asp_side",
+		"south": "mekaenergy:block/asp/asp_side",
+		"up": "mekaenergy:block/asp/asp_top",
+		"down": "mekaenergy:block/asp/asp_bottom"
+	}
+}

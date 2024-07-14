@@ -1,0 +1,12 @@
+{
+	"parent": "mekanism:block/machine",
+	"textures": {
+		"sides": "mekaenergy:block/hsp/hsp_side",
+		"front": "mekaenergy:block/hsp/hsp_side",
+		"west": "mekaenergy:block/hsp/hsp_side",
+		"east": "mekaenergy:block/hsp/hsp_side",
+		"south": "mekaenergy:block/hsp/hsp_side",
+		"up": "mekaenergy:block/hsp/hsp_top",
+		"down": "mekaenergy:block/hsp/hsp_bottom"
+	}
+}

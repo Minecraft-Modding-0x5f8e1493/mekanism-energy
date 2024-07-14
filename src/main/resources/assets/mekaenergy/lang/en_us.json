@@ -1,0 +1,34 @@
+{
+  "itemGroup.mekaenergy.tab": "Mekanism: Energy",
+  "block.mekaenergy.advanced_solar_panel": "Advanced Solar Panel",
+  "block.mekaenergy.hybrid_solar_panel": "Hybrid Solar Panel",
+  "block.mekaenergy.ultimate_hybrid_solar_panel": "Ultimate Hybrid Solar Panel",
+  "block.mekaenergy.quantum_solar_panel": "Quantum Solar Panel",
+
+  "block.mekaenergy.quantum_generator": "Quantum Generator",
+
+  "item.mekaenergy.matter": "Matter",
+  "item.mekaenergy.gamma_uranium": "Gamma Uranium",
+
+  "item.mekaenergy.ore_module": "Lucky Module",
+  "item.mekaenergy.ore_modulex1": "Lucky Module",
+  "item.mekaenergy.ore_modulex2": "Lucky Module",
+  "item.mekaenergy.ore_modulex3": "Lucky Module",
+  "item.mekaenergy.ore_modulex4": "Lucky Module",
+  "item.mekaenergy.ore_modulex5": "Lucky Module",
+  "item.mekaenergy.ore_modulex6": "Lucky Module",
+  "item.mekaenergy.ore_modulex7": "Lucky Module",
+  "item.mekaenergy.ore_modulex8": "Lucky Module",
+  "item.mekaenergy.ore_modulex9": "Lucky Module",
+  "item.mekaenergy.ore_modulex10": "Lucky Module",
+  "item.mekaenergy.ore_modulex11": "Lucky Module",
+
+  "item.mekaenergy.upgrade_stack": "Upgrade Stack",
+  "item.mekaenergy.upgrade_infinite": "Upgrade Infinite",
+  "item.mekaenergy.upgrade_smelting": "Upgrade Smelting",
+
+  "tooltip.mekaenergy.module.level": "Level: ",
+  "tooltip.mekaenergy.upgrade.infinity": "Отменяет затраты энергии для Преобразователя удачи",
+  "tooltip.mekaenergy.upgrade.smelting": "Плавит руды которые этого требуют в Преобразователе удачи",
+  "tooltip.mekaenergy.upgrade.stack": "Перерабатывает по 64 руды в каждом слоте за 1 операцию в Преобразователе удачи"
+}
